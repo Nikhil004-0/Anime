@@ -1,0 +1,100 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: rgb(241, 208, 118);
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color: brown;
+    color: cornsilk;
+    display: flex;
+    justify-content: space-between;
+   position: sticky;
+   top: 0px;
+}
+header h1{
+    margin-top: 10px;
+}
+header h1:hover{
+    color: black;
+   
+}
+header ul{
+    display: flex;
+    margin: 10px;
+}
+
+header ul li{
+    margin: 10px 30px;
+    list-style: none;
+    font-size: large;
+}
+header ul li:hover{
+    color: black;
+}
+#banner{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/542/661/246/one-piece-roronoa-zoro-hd-wallpaper-preview.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.row{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(245, 235, 235);
+    display: flex;
+    justify-content: space-evenly;
+    /* start , end , center , space-evenly , space-around , space-between */
+    align-items: center;
+}
+.col{
+    width: 150px;
+    height: 200px;
+    background-color: darkred;
+    border: 4px solid rgb(244, 236, 236);
+}
+img{
+    
+    width: 80px;
+    height: 50px;
+    margin: 40px;
+}
+button{  
+  
+  color:rgb(252, 240, 240) ;
+  background-color: rgb(27, 8, 8);
+}
+button:hover{
+    color: rgb(16, 1, 1);
+   
+    background-color: rgb(247, 228, 228);
+}
+.row2{
+    width: 100%;
+    height: 400px;
+    background-color: darkred;
+}
+.col2{
+    width: 200px;
+    height: 300px;
+    float: left;
+    margin-top: px;
+    margin-left: 15px;
+   margin-right: 15px;
+    padding: 40px;
+    
+}
+footer ul li{
+    margin-left: 100px;
+    color: white;
+    padding-top: 35px;
+}
+.font{
+    font-size: 40px;
+}
+
